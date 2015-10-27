@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!meta charset="utf-8">
+    <title>Basic Information With Pictures</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+
+<div id="introText">
+    <div id="holder">
+        <img id="map" title="Point to see the comparison" onclick ="change()" src="../img/map.jpg" height="380" width="600"/>
+        <p>
+          <h2 id = "headtext" align="center"><font color='#00000'> Map of Tethys and Kronos</font></h2>
+        </p>
+        <p>
+            <h3 id = "conclusion"><h3>
+        </p>
+        <h3> </h3>
+        <p id="detail" font="微软雅黑"> 
+          Tethys is in the north west to Kronos, which has two main cities, Abila and Elodis.   
+        </p>
+        <div id="btnHolder" onclick='jump()'>POK History</div>
+    </div>
+</div>
+<script>
+var counter = 0;
+function change()
+{
+    counter++;
+    if(counter%3 === 1){
+    document.getElementById("map").height="380";
+    document.getElementById("map").width="600";
+    document.getElementById("map").src = "../img/compare.jpg";
+    document.getElementById("map").title="Point to see the resume timeline";
+    document.getElementById("headtext").innerHTML = "<font color='#00000'>"+"comparison of Tethys and Kronos";
+    document.getElementById("conclusion").innerHTML = "<font color='#00000'>"+"Information";
+    document.getElementById("detail").innerHTML = "It can be inferred from the graph that Kronos' economy and people's quality are much lower than Tethys";
+    }
+    else if(counter%3 === 2){
+    document.getElementById("map").height="400";
+    document.getElementById("map").width="640";
+    document.getElementById("map").src = "../img/resume.jpg";
+    document.getElementById("map").title="Point to see the map";
+    document.getElementById("headtext").innerHTML = "<font color='#00000'>"+"Resume of GAStech workers";
+    document.getElementById("conclusion").innerHTML = "<font color='#00000'>"+"Information";
+    document.getElementById("detail").innerHTML = "Here are the timeline of some workers in GAStech, and the information includes department, military service, education, current employment of GAStech and so on. ";      
+    }    
+    else {
+    document.getElementById("map").height="380";
+    document.getElementById("map").width="600";
+    document.getElementById("map").src = "../img/map.jpg";
+    document.getElementById("map").title="Point to see the comparison";
+    document.getElementById("headtext").innerHTML = "<font color='#00000'>"+"Map of Tethys and Kronos";
+    document.getElementById("conclusion").innerHTML = "<font color='#00000'>"+"Information";
+    document.getElementById("detail").innerHTML = "Tethys is in the north west to Kronos, which has two main cities, Abila and Elodis.";
+    }
+}
+function jump()
+{
+    window.location='timeline.html';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,702 @@
+/* Reset */
+html,body,div,form,fieldset,legend,label{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}th,td{text-align:left;vertical-align:top;}p,a,h1,h2,h3,h4,h5,h6,th,td,ul, ol, li, caption{font-weight:normal;margin: 0; padding: 0;}img{border: none;}
+
+/* new clearfix */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ".";
+    clear: both;
+    height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+.clear {
+    clear: both;
+}
+div {
+    display: block;
+}
+
+h1{
+    color:#ECE9E0;
+    font-size: 40px;
+}
+
+body {
+    width: 100%;
+    font-family:  arial, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: url('../images/bg.png') repeat;
+    overflow: hidden;
+}
+.innerContent {
+    margin: 0 auto;
+    width: 900px;
+}
+#introText {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #696969;
+    z-index: 1000;
+}
+#holder {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 50%;
+    margin-top: -300px;
+    width: 600px;
+    height: 600px;
+}
+#introText p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px;
+    color: #000000;
+}
+#btnHolder {
+    margin: 20px auto 0 auto;
+    display: block;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #4A2836;
+    border-radius: 10px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+#introLogo {
+    margin: 0 auto;
+    display: block;
+    width: 461px;
+    height:220px; /*276px;*/
+}
+#overlayContainer {
+    background: url('assets/images/overlay.png') top left repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+}
+#header {
+    position: relative;
+    min-height: 1200px;
+    width: 100%;
+    background: #EDE9E1 url('../images/headerBg.png') top center no-repeat;
+    z-index: 5;
+}
+#menu {
+    position: fixed;
+    right: 25px;
+    top: 50%;
+    height: 430px;
+    margin-top: -235px;
+    padding-top: 40px;
+    z-index: 501;
+}
+#menu li {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: #29493b;
+    list-style: none;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+}
+#menu li.last {
+    margin-bottom: 0;
+}
+#menu li.active {
+    background-color: #f1a620;
+}
+#menu li a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.arrow {
+    display: block;
+    cursor: pointer;
+    height: 33px;
+    width: 50px;
+    position: absolute;
+    right: -10px;
+    z-index: 20;
+}
+#arrowUp {
+    background: url('../images/arrow_up.png') top center no-repeat;
+    top: 0;
+}
+#arrowDown {
+    background: url('../images/arrow_down.png') top center no-repeat;
+    bottom: 0;
+}
+.section {
+    position: relative;
+    display: block;
+    width: 900px;
+}
+.lastSection {
+    margin-bottom: 0 !important;
+}
+#section2 {
+    top: 130px;
+    height: 1000px;
+}
+#section3 {
+    top: 130px;
+    height: 1000px;
+}
+
+#section4 {
+    top: 130px;
+    height: 1500px;
+}
+#section5 {
+    top: 130px;
+    height: 1000px;
+}
+#section6 {
+    top: 130px;
+    height: 1000px;
+}
+#section7 {
+    top: 130px;
+    height: 1500px;
+}
+
+#section8 {
+    top: 130px;
+    height: 1000px;
+}
+
+#section9 {
+    top: 130px;
+    height: 1000px;
+}
+
+#section1background {
+    position: absolute;
+    top: 50px;
+}
+#section1logo {
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 50%;
+    margin-left: -230px;
+}
+#section1badge {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    top: 460px;
+    left: 160px;
+}
+#section1people {
+    display: none;
+    position: absolute;
+    top: 400px;
+}
+#section1stats {
+    margin: 0 auto;
+    position: absolute;
+    top: 940px;
+    height: 120px;
+    width: 704px;
+    background: url('../images/section_1_4_0.png') top center no-repeat;
+    z-index: 11;
+}
+#section1largeDig {
+    position: absolute;
+    display: none;
+    left: 100px;
+}
+.digits {
+    position: absolute;
+    display: none;
+    top: 14px;
+    z-index: 11;
+}
+#section1dig1 {
+    left: 241px;
+}
+#section1dig2 {
+    left: 287px;
+}
+#section1dig3 {
+    left: 359px;
+}
+#section1dig4 {
+    left: 411px;
+}
+#section1dig5 {
+    left: 465px;
+}
+#section1dig6 {
+    left: 537px;
+}
+#section1dig7 {
+    left: 589px;
+}
+#section1dig8 {
+    left: 643px;
+}
+#section1tagHolder {
+    position: absolute;
+    top: 1038px;
+    left: -26px;
+    height: 324px;
+    width: 820px;
+}
+#section1trigger {
+    position: absolute;
+    display: block;
+    top: 190px;
+    left: 320px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 5;
+}
+#section1tag {
+    position: absolute;
+    z-index: 5;
+}
+#section1tagFlip {
+    position: absolute;
+    display: none;
+    z-index: 10;
+}
+#mainDivider {
+    position: relative;
+    z-index: 3;
+    background: url('../images/divider.png') center center no-repeat;
+    height: 65px;
+    width: 100%;
+}
+#mainContent {
+    min-height: 1000px;
+    width: 100%;
+}
+#section2Holder {
+    position: relative;
+    height: 520px;
+    width: 820px;
+    overflow: hidden;
+}
+#section2Left {
+    position: absolute;
+    left: 0;
+    top: 520px;
+}
+#section2Right {
+    position: absolute;
+    right: 0;
+    top: 520px;
+}
+#section2bottleAnimated {
+    position: absolute !important;
+    display: none;
+    top: -290px;
+    left: 300px;
+}
+#section2holder {
+    margin: 0 auto;
+    display: block;
+}
+#section2pillHolder {
+    position: relative;
+    top: 50px;
+    left: -100px;
+    height: 710px;
+}
+#section2pill {
+    position: absolute !important;
+    left: 20px;
+    top: 120px;
+    cursor: pointer;
+    z-index: 5;
+}
+#section2pillIntroAnimated {
+    position: absolute;
+    display: none;
+    left: 70px;
+    top: -144px;
+    z-index: -1;
+}
+#section2pillAnimated {
+    position: absolute;
+    display: block;
+    opacity: 0;
+    left: 70px;
+    top: -34px;
+}
+#section2badgeHolder {
+    position: absolute;
+    top: 350px;
+    display: block;
+    width: 800px;
+    height: 360px;
+    overflow: hidden;
+}
+#section2badge {
+    position: absolute !important;
+    top: 720px;
+    left: 270px;
+}
+#section2dropoutHolder {
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+#section2paperAnimated {
+    position: absolute !important;
+    left: 240px;
+}
+#section2statsHolder {
+    display: block;
+    opacity: 0;
+    margin: 0 auto;
+    position: relative;
+    height: 569px;
+    width: 800px;
+}
+#section2stat1, #section2stat2, #section2stat3 {
+    position: absolute;
+    top: 220px;
+    display: none;
+}
+#section2stat1 {
+    left: 120px;
+}
+#section2stat2 {
+    left: 330px;
+}
+#section2stat3 {
+    left: 540px;
+}
+#section3stampHolder {
+    position: relative;
+    height: 850px;
+    z-index: 5;
+}
+#section3cheers {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: -195px;
+    z-index: 5;
+}
+#section3stamp {
+    position: absolute;
+    display: none;
+    top: 290px;
+    left: 80px;
+    z-index: 5;
+}
+#section3gavelHolder {
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    height: 500px;
+}
+#section3gavel {
+    display: none;
+    position: absolute;
+    top: -100px;
+    left: -50px;
+}
+#section3division {
+    position: absolute;
+    top: 30px;
+    left: 360px;
+}
+#section3rightHolder {
+    display: block;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    height: 520px;
+    width: 390px;
+}
+#section3coffinHolder {
+    position: absolute;
+    top: 57px;
+    right: -400px;
+    z-index: 20;
+}
+#section3coffin {
+    position: absolute;
+    display: none;
+    top: 220px;
+    left: 23px;
+}
+#section4curtain {
+    position: relative;
+    top: 50px;
+}
+#section4tombstones {
+    position: relative;
+    margin-bottom: 40px;
+}
+#section4curtain {
+    height: 800px;
+}
+#section4interactive {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 20px;
+    width: 54px;
+    height: 230px;
+    cursor: pointer;
+    z-index: 10;
+}
+#section4curtainClose {
+    position: absolute;
+}
+#section4curtainOpen {
+    position: absolute;
+    display: none;
+}
+#section4header {
+    position: relative;
+    top: 300px;
+}
+#section4tombstones {
+    display: block;
+    height: 240px;
+    width: 751px;
+}
+#section4left {
+    position: absolute;
+    left: -400px;
+}
+#section4statHolder {
+    position: absolute;
+    top: 1210px;
+    left: 370px;
+}
+#section4leftStat {
+    position: absolute;
+    left: 0;
+}
+#section4leftStat img {
+    position: absolute;
+}
+#section4rightStat {
+    position: absolute;
+    left: 200px;
+    overflow: hidden;
+    height: 190px;
+    width: 180px;
+}
+#section4rightStat img {
+    position: absolute;
+}
+#section4nav {
+    position: absolute;
+    width: 65px;
+    height: 28px;
+    top: 160px;
+    left: 255px;
+}
+.circleBtn {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+}
+#section4leftBtn {
+    left: 0;
+    background: url('../images/section_4_arrow_left_red.png') top center no-repeat;
+}
+#section4leftBtn:hover, #section4leftBtn.active {
+    background: url('../images/section_4_arrow_left_orange.png') top center no-repeat;
+}
+#section4rightBtn {
+    right: 0;
+    background: url('../images/section_4_arrow_right_red.png') top center no-repeat;
+}
+#section4rightBtn:hover, #section4rightBtn.active {
+    background: url('../images/section_4_arrow_right_orange.png') top center no-repeat;
+}
+#section4img2 {
+    display: none;
+    top: -7px;
+}
+#section4bg2 {
+    left: 200px;
+}
+#section4text1 {
+    top: 60px;
+    left: 12px;
+}
+#section4text2 {
+    top: 60px;
+    left: 214px;
+}
+#section4girl {
+    position: absolute;
+    display: none;
+    top: 1960px;
+    left: 260px;
+}
+#section4girlStat {
+    position: absolute;
+    top: 1520px;
+    right: -400px;
+}
+#section5header {
+    margin: 0 auto;
+    display: block;
+}
+#section5speed {
+    display: none;
+    position: relative;
+    left: 0;
+}
+#section5label {
+    position: absolute;
+    top: 306px;
+    left: 114px;
+    display: block;
+}
+#section6header {
+    margin: 0 auto;
+    display: block;
+}
+#section6colHolder {
+    position: relative;
+    display: block;
+    top: 30px;
+    height: 580px;
+    overflow: hidden;
+}
+#section6col1 {
+    position: absolute;
+    left: 32px;
+    top: 600px;
+}
+#section6col2 {
+    position: absolute;
+    left: 311px;
+    top: 600px;
+}
+#section6col3 {
+    position: absolute;
+    right: 45px;
+    top: 600px;
+}
+#section6footer {
+    position: absolute;
+    left: 50%;
+    bottom: -300px;
+    margin-left: -354px;
+}
+#section7header {
+    display: block;
+    margin: 0 auto;
+}
+.section7holder {
+    position: relative;
+    height: 180px;
+    width: 720px;
+    left: 20px;
+}
+.section7head {
+    position: absolute;
+}
+.section7stat {
+    position: absolute;
+    top: 60px;
+    left: 90px;
+}
+#section7data {
+    margin: 0 auto;
+    display: block;
+}
+#section8header {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    z-index: 10;
+}
+#section8stat1 {
+    position: absolute;
+    top: -50px;
+    left: -6px;
+}
+#section8final {
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+    display: block;
+    z-index: 5;
+}
+#section9source {
+    margin: 0 auto;
+    display: block;
+}
+.rehabsLink {
+    margin: 40px auto 0 auto;
+    display: block;
+    border: none;
+    text-align: center;
+}
+#embed-container {
+    display: block;
+    position: fixed;
+    left: -300px;
+    bottom: 10%;
+    width: 330px;
+    height: 150px;
+    z-index: 10;
+    background: url('../images/embed.png') left top no-repeat;
+}
+
+#embed-container .handle {
+    position: absolute;
+    display: block;
+    top: 50%;
+    margin-top: -43px;
+    right: 0;
+    width: 30px;
+    height: 80px;
+    cursor: pointer;
+}
+#embed-container textarea {
+    position: absolute;
+    font-size: 10px;
+    line-height: 16px;
+    left: 6px;
+    top: 6px;
+    width: 266px;
+    height: 116px;
+    margin: 0;
+    padding: 10px;
+    resize: none;
+    border: 1px solid #e2e2e2;
+}
+#accessForm {
+    width: 250px;
+    margin: 30px auto;
+}

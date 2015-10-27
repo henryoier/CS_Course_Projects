@@ -1,0 +1,237 @@
+
+{
+    "timeline":
+   
+    {
+   
+     "headline":"History Of POK",
+
+     "type":"default",
+		
+     "startDate":"1997",
+		
+     "text":"<i><span class='c1'>Infovis</span> <span class='c2'>Group</span></i>",
+		
+      "asset":
+{
+  
+            "media":"../img/POK.jpg",
+          
+              "caption":""
+ },
+   
+     "date": [
+  
+      {
+  
+       "startDate":"1997,1",
+
+       "headline":"The contamination of the river had been found",
+             
+       "text":"In early 1997, citizens of Elodis began to be concerned about an abnormal increase in the occurrence of illnesses such as cancer, birth defects, respiratory illnesses, and neurological diseases, in addition to a marked decrease in crop yield. ",
+              
+      "asset":
+              {
+                    
+               "media":"../img/1997-1.jpg",
+              "credit":"",
+      
+              "caption":""
+               
+               }
+ 
+      },
+      {
+  
+       "startDate":"1997,2",
+
+       "headline":"The wife of Henk Bodrogi became ill for contamination",
+             
+       "text":"The wife of Henk Bodrogi, Mira became ill with cardiopulmonary symptoms consistent with ethylene glycol contamination.",
+              
+      "asset":
+              {
+                    
+               "media":"../img/1997-2.jpg",
+              "credit":"",
+      
+              "caption":""
+               
+               }
+      },
+         {
+  
+       "startDate":"1997,3",
+
+       "headline":"seven citizens led by Henk Bodrogi organized the POK for against contamination",
+             
+       "text":"When the Elodis City Council failed to take action on the call of citizen  for investigation into possible contamination of the river,a small grassroots group of seven citizens formed with the goal of bringing their concerns to the central Kronos government. ",
+              
+      "asset":
+              {
+                    
+               "media":"../img/1997-3.jpg",
+              "credit":"",
+      
+              "caption":""
+               
+               }
+      },   
+      {
+  
+       "startDate":"1998,1",
+
+       "headline":"The WFA published these test results of river contamination in several international journals",
+             
+       "text":"The initial results from the WFA water testing in 1998 found high levels of chemicals associated with Hyper Acidic Substrate Removal, and technology associated with natural gas drilling operations. The WFA published these test results in several international journals. ",
+              
+      "asset":
+              {
+                    
+               "media":"../img/1998-1.jpg",
+              "credit":"",
+      
+              "caption":""
+               
+               }
+      },     
+      {
+  
+       "startDate":"1999,6",
+
+       "headline":"A bill of creating an additional tax on oil and gas development was sponsored",
+             
+       "text":"Bodrogi and Osvaldo were invited to attend several meetings with the Minister of Health, Cesare Nespola.  Nespola investigated the POK claims and eventually grew concerned enough that in July 1999 he sponsored a bill to create an additional tax on oil and gas development, the funds from which would be specifically earmarked for health care and clean water projects in rural areas.",
+              
+      "asset":
+              {
+                    
+               "media":"../img/1999-6.jpg",
+              "credit":"",
+      
+              "caption":""
+               
+               }
+      },     
+         {
+  
+       "startDate":"2001,3",
+
+       "headline":"Big setback to the POK，the tax measure was defeated",
+             
+       "text":"Government of Kronos Assembly voted down the tax proposed by Minister Nespola.",
+              
+      "asset":
+              {
+                    
+               "media":"../img/2001-3.jpg",
+              "credit":"",
+      
+              "caption":""
+               
+               }
+      },   
+        {
+  
+       "startDate":"2001,6",
+
+       "headline":"Cesare Nespola died",
+             
+       "text":"Armed with the WFA test results,POK make a large improvement.But the friend of POK in government ,Cesare Nespola died. POK lose the only support from government,  being painful and ineffective.",
+              
+      "asset":
+              {
+                    
+               "media":"../img/2001-6.jpg",
+              "credit":"",
+      
+              "caption":""
+               
+               }
+      },   
+    {
+  
+       "startDate":"2001,8",
+
+       "headline":"The heart of POK transfered",
+             
+       "text":"Henk began taking Karel to rallies and turning over public appearance responsibilities to Karel. ",
+              
+      "asset":
+              {
+                    
+               "media":"../img/1997-2.jpg",
+              "credit":"",
+      
+              "caption":""
+               
+               }
+      },            
+      {
+  
+       "startDate":"2001,10",
+
+       "headline":"Leadership of POK make a big chang",
+             
+       "text":"Henk Bodrogi stepped down as leader of the POK. Elian Karel take place of  Henk Bodrogi, and all of the other original seven members of the group also quit.",
+              
+      "asset":
+              {
+                    
+               "media":"../img/2001-10.jpg",
+              "credit":"",
+      
+              "caption":""
+               
+               }
+      },     
+       {
+  
+       "startDate":"2002",
+
+       "headline":"A Time of Peaceful Engagement and Recruitment",
+             
+       "text":"Frustrated by a lack of government engagement during this time, Elian Karel shifted the mission of POK to include concern over government accountability and corruption.  This additional focus aligned with popular concerns of bribery and fraud, and won Karel additional supporters.",
+              
+      "asset":
+              {
+                    
+               "media":"../img/2002.jpg",
+              "credit":"",
+      
+              "caption":""
+               
+               }
+      },                 
+   {
+  
+       "startDate":"2005",
+
+       "headline":"POK changed to be  civil disobedience and militant, violent action",
+             
+       "text":"The tone of the POK protests changed markedly after the Tiskele River caught fire in 2005. At their recent rallies, the POK has alleged that government corruption and possible collusion has resulted in little to no oversight of gas and oil field operations. ",
+              
+      "asset":
+              {
+                    
+               "media":"../img/2005.jpg",
+              "credit":"",
+      
+              "caption":""
+               
+               }
+      }                 
+           
+     
+           
+   
+           
+   
+           
+  
+      
+  ]
+ 
+   }
+
+}

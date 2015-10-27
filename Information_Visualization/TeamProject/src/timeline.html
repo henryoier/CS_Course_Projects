@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Timeline Portfolio | Tutorialzine Demo</title>
+        
+        <!-- The default timeline stylesheet -->
+        <link rel="stylesheet" href="../css/timeline.css" />
+        <!-- Our customizations to the theme -->
+        <link rel="stylesheet" href="../css/timeline-styles.css" />
+        <link rel="stylesheet" href="../css/index.css">
+        <!-- Google Fonts -->
+        <!link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dancing+Script|Antic+Slab" />
+        
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+
+        <h3 align = "right">To see the structures between POK members and others</h3>
+        <h3 style="height:20px"><div id="btnHolder" onclick='jump()' style="margin-right:100px">Structure</div> </h3>
+		<div id="timeline">
+			<!-- Timeline.js will genereate the markup here --> 
+        </div>
+        <!-- JavaScript includes - jQuery, turn.js and our own script.js -->
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="../js/timeline-min.js"></script>
+		<script src="../js/timeline-script.js"></script>
+        <script>
+          function jump()
+          {
+            window.location ="pokstructure.html";
+          }
+        </script>
+
+    </body>
+</html>

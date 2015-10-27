@@ -1,0 +1,45 @@
+.link {
+    fill: none;
+    stroke:black;
+    stroke-width: 4px;
+}
+
+.link.punteado {
+    stroke-dasharray: 0,2 1;
+}
+
+rect {
+    fill: #6699FF;
+    pointer-events: visible;
+    cursor: pointer;
+}
+rect:hover {
+    stroke: #FF0033;
+    stroke-width: .5px;
+}
+
+.bold {
+    stroke-width: 6px;
+}
+.bold:hover {
+    stroke: #FF0033;
+    stroke-width: 6px;
+}
+
+text {
+    font:  14px "Helvetica Neue";
+    pointer-events: none;
+    fill: #ECE9E0;
+}
+
+line{
+    stroke:black;
+    stroke-width: 4px;
+}
+
+.futureleadership{
+    stroke-dasharray:5,5;
+    stroke:#FF0033;
+    fill:#FF0033;
+}
+
