@@ -12,4 +12,4 @@ In this task we are given several images of a chessboard, to detect the corner p
 #####4. Face recognition
 This task introduced us two algorithms of face detection, Eigenface (Based on PCA) as well as (Fisherface Based on LDA). By implemented them on different databased I also generated results and compared the performances.  
 ####As an extension, I studied the Laplacianface algorithm designed by Prof. Xiaofei He. 
-####After learning deep learning, we can try to implement CNN on face recognition which can help us to do recognition beyond face subspace.
+####After studying deep learning, we can try to implement CNN on face recognition which can help us to do recognition beyond face subspace.
