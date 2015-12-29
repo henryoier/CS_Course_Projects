@@ -1,5 +1,5 @@
-# CS_Course_Projects
-## Computer Vision Course Projects
+## CS_Course_Projects
+### Computer Vision Course Projects
 This repository contains four computer vision projects:  
 #####1. Video processing. 
 You are supposed to deal with a video, change the speed, binarize it and add a special watermark of you to it.  
@@ -14,11 +14,13 @@ This task introduced us two algorithms of face detection, Eigenface (Based on PC
 ####As an extension, I studied the Laplacianface algorithm designed by Prof. Xiaofei He. 
 ####After studying deep learning, we can try to implement CNN on face recognition which can help us to do recognition beyond face subspace.
   
-## Data Mining
+### Data Mining
 This repository contains all data mining projects and assignments
 
-## Infomation Visualization
-The Information Visualization directory is the final team project for the class. The project was based on the VAST 2014, MiniChallenge 1.
+### Infomation Visualization
+The Information Visualization directory is the final team project for the class. The project was based on the VAST 2014, Mini Challenge 1
 
-## Java Projects
-There are two simple Java projects here.
+### Java Projects
+There are two simple Java projects here.Mine Game is the implement of a game in Windows and there other one is an Infomation Management system
+
+
