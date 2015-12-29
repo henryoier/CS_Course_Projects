@@ -14,5 +14,11 @@ This task introduced us two algorithms of face detection, Eigenface (Based on PC
 ####As an extension, I studied the Laplacianface algorithm designed by Prof. Xiaofei He. 
 ####After studying deep learning, we can try to implement CNN on face recognition which can help us to do recognition beyond face subspace.
   
-## Machine Learning
-This repository contains all machine learning projects and assignments
+## Data Mining
+This repository contains all data mining projects and assignments
+
+## Infomation Visualization
+The Information Visualization directory is the final team project for the class. The project was based on the VAST 2014, MiniChallenge 1.
+
+## Java Projects
+There are two simple Java projects here.
